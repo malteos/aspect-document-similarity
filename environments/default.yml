@@ -1,0 +1,26 @@
+# Settings for your local setup
+local_mac:
+  must_exists: /Volumes/data/repo/
+  bert_dir: /Volumes/data/repo/data/bert
+  datasets_dir: /Volumes/data/repo/data
+  workers: 4
+
+# Settings for your GPU server
+gpu_server:
+  #must_exists: /usr/bin/nvidia-smi
+  must_exists: ~/gpu1
+  bert_dir: /mnt/hdd/datasets/BERT_pre_trained_models/pytorch
+  datasets_dir: /mnt/hdd/datasets
+  workers: 12
+
+gpu_server2:
+  must_exists: ~/gpu2
+  datasets_dir: ~datasets
+  bert_dir: ~/datasets/BERT_pre_trained_models/pytorch
+  workers: 36
+
+google_colab:
+  must_exists: /content
+  datasets_dir: /dev/null
+  bert_dir: /dev/null
+  workers: 24

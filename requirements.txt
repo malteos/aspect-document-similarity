@@ -1,0 +1,32 @@
+# general
+pandas
+jupyter
+numpy
+tqdm
+matplotlib
+pyyaml
+nltk
+scikit-learn==0.23.1
+
+# data accusition & preprocessing
+fuzzywuzzy
+lxml
+cssselect
+# bibtexparser
+requests
+smart-open
+
+# wiki related (+ nlp)
+# wikipedia2vec
+gensim
+spacy
+
+# model & evaluation
+torch==1.4.0
+transformers==2.10.0
+tokenizers==0.7.0
+nlp==0.1.0
+
+# experiments
+tensorboard
+wandb==0.8.36
