@@ -1,7 +1,7 @@
 # Aspect-based Document Similarity for Research Papers
 
 Implementation, trained models and result data for the paper **Aspect-based Document Similarity for Research Papers** [(PDF on Arxiv)](https://arxiv.org/abs/2010.06395). 
-The supplemental material is available for download under [GitHub Releases](https://github.com/malteos/aspect-document-similarity/releases) or [Zenodo](#TODO).
+The supplemental material is available for download under [GitHub Releases](https://github.com/malteos/aspect-document-similarity/releases) or [Zenodo](http://doi.org/10.5281/zenodo.4087898).
 
 - Datasets are compatible with 🤗 [Huggingface NLP library](https://github.com/huggingface/nlp). 
 - Models are available on 🤗 [Huggingface Transformers models](https://huggingface.co/malteos). 
