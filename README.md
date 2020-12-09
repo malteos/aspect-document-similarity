@@ -54,8 +54,8 @@ sh ./sbin/download_parsecit.sh
 wget https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-03-13.tar.gz
 
 # Get additional data (collected from Semantic Scholar API)
-wget https://github.com/j5bd/w/releases/download/1.0/acl_s2.tar
-wget https://github.com/j5bd/w/releases/download/1.0/cord19_s2.tar
+wget https://github.com/malteos/aspect-document-similarity/releases/download/1.0/acl_s2.tar
+wget https://github.com/malteos/aspect-document-similarity/releases/download/1.0/cord19_s2.tar
 ```
 
 ### Build datasets
