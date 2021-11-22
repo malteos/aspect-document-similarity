@@ -3,7 +3,7 @@
 Implementation, trained models and result data for the paper **Aspect-based Document Similarity for Research Papers** [(PDF on Arxiv)](https://arxiv.org/abs/2010.06395). 
 The supplemental material is available for download under [GitHub Releases](https://github.com/malteos/aspect-document-similarity/releases) or [Zenodo](http://doi.org/10.5281/zenodo.4087898).
 
-- Datasets are compatible with 🤗 [Huggingface NLP library](https://github.com/huggingface/nlp). 
+- Datasets are compatible with 🤗 [Huggingface NLP library](https://github.com/huggingface/nlp) (now known as [datasets](https://github.com/huggingface/datasets)). 
 - Models are available on 🤗 [Huggingface Transformers models](https://huggingface.co/malteos). 
 
 <img src="https://raw.githubusercontent.com/malteos/aspect-document-similarity/master/docrel.png">
@@ -20,6 +20,10 @@ You can try our trained models directly on Google Colab on all papers available 
 
 - Python 3.7
 - CUDA GPU (for Transformers)
+
+Datasets
+- [ACL Anthology Reference Corpus (ACL ARC)](http://acl-arc.comp.nus.edu.sg/)
+- [COVID-19 Open Research Dataset (CORD 19)](https://www.semanticscholar.org/cord19)
 
 ## Installation
 
@@ -39,7 +43,7 @@ pip install -r requirements.txt
 
 ## Experiments
 
-To reproduce our experiments, follow these steps:
+To reproduce our experiments, follow these steps (if you just want to train and test the models, skip the first two steps):
 
 ### Prepare
 
