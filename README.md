@@ -88,6 +88,21 @@ train_dataset = load_dataset(
 )                   
 ```
 
+### Use models
+
+```python
+from models.auto_modelling import AutoModelForMultiLabelSequenceClassification
+
+# Load models with pretrained weights from Huggingface model hub
+acl_model = AutoModelForMultiLabelSequenceClassification('malteos/aspect-acl-scibert-scivocab-uncased')
+cord19_model = AutoModelForMultiLabelSequenceClassification('malteos/aspect-cord19-scibert-scivocab-uncased')
+
+# Use the models in standard Huggingface fashion ...
+# acl_model(input_ids, token_type_ids, ...)
+# cord19_model(input_ids, token_type_ids, ...)
+
+```
+
 ### Train models
 
 All models are trained with the `trainer_cli.py` script:
