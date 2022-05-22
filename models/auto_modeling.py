@@ -1,6 +1,6 @@
 from collections import OrderedDict
 
-from longformer.longformer import LongformerConfig
+#from longformer.longformer import LongformerConfig
 from transformers import PretrainedConfig, AutoConfig, \
     RobertaConfig, BertConfig, XLNetConfig, BartConfig, ElectraConfig
 
@@ -21,7 +21,7 @@ MODEL_FOR_MULTI_LABEL_SEQUENCE_CLASSIFICATION_MAPPING = OrderedDict(
         (RobertaConfig, RobertaForMultiLabelSequenceClassification),
         (BertConfig, BertForMultiLabelSequenceClassification),
         (XLNetConfig, XLNetForMultiLabelSequenceClassification),
-        (LongformerConfig, LongformerForMultiLabelSequenceClassification),
+        #(LongformerConfig, LongformerForMultiLabelSequenceClassification),
         (BartConfig, BartForMultiLabelSequenceClassification),
         # (FlaubertConfig, FlaubertForSequenceClassification),
         # (XLMConfig, XLMForSequenceClassification),

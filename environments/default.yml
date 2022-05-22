@@ -14,9 +14,9 @@ gpu_server:
   workers: 12
 
 gpu_server2:
-  must_exists: ~/gpu2
-  datasets_dir: ~datasets
-  bert_dir: ~/datasets/BERT_pre_trained_models/pytorch
+  must_exists: /home/mostendorff/gpu2
+  datasets_dir: /data/datasets/
+  bert_dir: /data/datasets/huggingface_transformers/pytorch
   workers: 36
 
 google_colab:
